@@ -1,3 +1,14 @@
+# Rent-A-Home project cool features:
+
+Animated Button for mobile friendly (working on this still with issues)
+An API created from scratch
+Node, Express and MongoDB in the backend
+Design made with Figma and minimalist
+Filter made with Javassript to find appartments with your requirements.
+Singlepage divided in two Log-in and Sign up page
+Create user require special caracters and numbers to be successfully created.
+will bring favorite tabs to add my favorite appartments.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
