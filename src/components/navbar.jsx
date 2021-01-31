@@ -3,24 +3,21 @@ import "../assests/styles/navbar.css";
 
 function Navbar() {
   function sayHello() {
-    let hamburguer = document.querySelector(".hamburguer");
-    let navLinks = document.querySelector(".nav-links");
-
-    hamburguer.addEventListener("click", () => {
-      navLinks.classList.toggle("open");
-    });
+    let navLinks = document.querySelector("#nav-links");
+    console.log("click", navLinks);
+    navLinks.classList.toggle("open");
   }
 
   return (
     <nav>
-      <div className="hamburguer">
-        <button className="button" onClick={sayHello}>
+      <div className="hamburguer" onClick={sayHello}>
+        <button className="button">
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
         </button>
       </div>
-      <ul className="nav-links">
+      <ul className="nav-links" id="nav-links">
         <li>
           <a href="https://www.linkedin.com/in/vegaluisj/">About</a>
         </li>
